@@ -11,7 +11,7 @@ import { Modal } from '../Modal';
 import { TodoContext } from '../TodoContext';
 import {TodoForm} from '../TodoForm'
 
-function AppUI({}){
+function AppUI(){
     const { openModal,setOpenModal,} = React.useContext(TodoContext);
 
     return (
